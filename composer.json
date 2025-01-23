@@ -1,0 +1,37 @@
+{
+  "name": "okol/dependent-filter",
+  "description": "Dependent filter component with support for Laravel Nova 5",
+  "keywords": [
+    "laravel",
+    "nova"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.0|^11.0"
+  },
+  "require-dev": {
+    "laravel/nova": "^5.0",
+    "laravel/nova-devtool": "^1.2"
+  },
+  "repositories": [
+    { "type": "composer", "url": "https://nova.laravel.com" }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Okol\\DependentFilter\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Okol\\DependentFilter\\FilterServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
