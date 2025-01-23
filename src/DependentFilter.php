@@ -1,6 +1,6 @@
 <?php
 
-namespace Fbtc\DependentFilter;
+namespace Okol\DependentFilter;
 
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Support\Str;

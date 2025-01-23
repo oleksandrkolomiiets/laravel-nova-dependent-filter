@@ -1,6 +1,6 @@
 <?php
 
-namespace Fbtc\DependentFilter;
+namespace Okol\DependentFilter;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -31,7 +31,7 @@ class FilterServiceProvider extends ServiceProvider
     protected function routeConfiguration(): array
     {
         return [
-            'namespace' => 'Fbtc\DependentFilter\Http\Controllers',
+            'namespace' => 'Okol\DependentFilter\Http\Controllers',
             'domain' => config('nova.domain', null),
             'as' => 'nova.api.',
             'prefix' => 'nova-api',

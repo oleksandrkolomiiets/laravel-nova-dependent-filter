@@ -1,6 +1,6 @@
 <?php
 
-namespace Fbtc\DependentFilter\Http\Controllers;
+namespace Okol\DependentFilter\Http\Controllers;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 
